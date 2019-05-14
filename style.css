@@ -9,6 +9,10 @@ body{
     border-bottom: 2px solid #cccccc;
 }
 
+.navbar{
+    padding: 0 !important;
+}
+
 .NickLogo{
     height: 100%;
     color: #ffffff !important;
@@ -27,6 +31,7 @@ body{
     position: relative;
     margin: auto;
     margin-top: 5%;
+    margin-left: 50px;
     background: #ffffff;
     border: 1px solid #dddddd;
     width: 960px;
@@ -69,6 +74,11 @@ body{
     color: #ffffff;
     background: #4aaaa5;
     width: 100%;
+}
+
+.submButton{
+    color: #ffffff;
+    background: #4aaaa5;
 }
 
 footer{
