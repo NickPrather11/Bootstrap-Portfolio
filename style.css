@@ -2,10 +2,25 @@ body{
     background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/what-the-hex.png);
 }
 
+.nkpNavbar{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 80px;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
 .NickLogo{
+    height: 100%;
     color: #ffffff !important;
     background: #4aaaa5;
+    font-size: 30px;
     padding: 5px;
+    margin-left: 50px;
+}
+
+.nkpHeader{
+    color: #4aaaa5;
+    margin: 20px;
 }
 
 .container{
@@ -39,6 +54,21 @@ body{
     height: 1px;
     width: 900px;
     background: grey;
+}
+
+.nkpCard{
+    border: 1px solid #dddddd;
+    margin: 20px;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.portfButton{
+    color: #ffffff;
+    background: #4aaaa5;
+    width: 100%;
 }
 
 footer{
