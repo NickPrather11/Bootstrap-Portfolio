@@ -1,95 +1,96 @@
-body{
-    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/what-the-hex.png);
+body {
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/what-the-hex.png);
 }
 
-.nkpNavbar{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    height: 80px;
-    background: #ffffff;
-    border-bottom: 2px solid #cccccc;
+.nkpNavbar {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  height: 80px;
+  background: #ffffff;
+  border-bottom: 2px solid #cccccc;
 }
 
-.navbar{
-    padding: 0 !important;
+#navLinks {
+  display: flex;
+  justify-content: flex-end;
 }
 
-.NickLogo{
-    height: 100%;
-    color: #ffffff !important;
-    background: #4aaaa5;
-    font-size: 30px;
-    padding: 5px;
-    margin-left: 50px;
+.NickLogo {
+  height: 100%;
+  color: #ffffff !important;
+  background: #4aaaa5;
+  font-size: 30px;
+  padding: 5px;
+  margin-left: 50px;
+  display: inline-block;
 }
 
-.nkpHeader{
-    color: #4aaaa5;
-    margin: 20px;
+.nkpHeader {
+  color: #4aaaa5;
+  margin: 20px;
 }
 
-.container{
-    position: relative;
-    margin: auto;
-    margin-top: 5%;
-    margin-left: 50px;
-    background: #ffffff;
-    border: 1px solid #dddddd;
-    width: 960px;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    overflow: auto;
+.container {
+  position: relative;
+  margin: auto;
+  margin-top: 5%;
+  margin-left: 50px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  width: 960px;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  overflow: auto;
 }
 
-.bioPic{
-    margin: 10px;
+.bioPic {
+  margin: 10px;
 }
 
-.media-body{
-    color: #777777;
-    margin-right: 5px;
+.media-body {
+  color: #777777;
+  margin-right: 5px;
 }
 
-#AboutMe{
-    margin: 10px;
+#AboutMe {
+  margin: 10px;
 }
 
 .container #divider {
-    position: relative;
-    margin: auto;
-    margin-bottom: 5px;
-    height: 1px;
-    width: 900px;
-    background: grey;
+  position: relative;
+  margin: auto;
+  margin-bottom: 5px;
+  height: 1px;
+  width: 900px;
+  background: grey;
 }
 
-.nkpCard{
-    border: 1px solid #dddddd;
-    margin: 20px;
+.nkpCard {
+  border: 1px solid #dddddd;
+  margin: 20px;
 }
 
-.card-body{
-    padding: 0 !important;
+.card-body {
+  padding: 0 !important;
 }
 
-.portfButton{
-    color: #ffffff;
-    background: #4aaaa5;
-    width: 100%;
+.portfButton {
+  color: #ffffff;
+  background: #4aaaa5;
+  width: 100%;
 }
 
-.submButton{
-    color: #ffffff;
-    background: #4aaaa5;
+.submButton {
+  color: #ffffff;
+  background: #4aaaa5;
 }
 
-footer{
-    height: 100px;
-    background: #666666;
-    border-top: 4px solid #4aaaa5;
-    margin-bottom: 0;
-    margin-top: 20px;
-    flex-shrink: 0;
+footer {
+  height: 100px;
+  background: #666666;
+  border-top: 4px solid #4aaaa5;
+  margin-bottom: 0;
+  margin-top: 20px;
+  flex-shrink: 0;
 }
 
-@media screen and (max-width: 768px){
-    
+@media screen and (max-width: 768px) {
 }
